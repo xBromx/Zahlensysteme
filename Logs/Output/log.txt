@@ -1,0 +1,36 @@
+Decimal: 1231231	Binary: 100101100100101111111	Octal: 4544577	Hexadecimal: 12c97f
+Mon Feb 19 07:59:19 CET 2018
+
+Binary: 01010101	Decimal: 85	Octal: 125	Hexadecimal: 55
+Mon Feb 19 07:59:24 CET 2018
+
+Binary: 0111	Decimal: 7	Octal: 7	Hexadecimal: 7
+Mon Feb 19 07:59:49 CET 2018
+
+Decimal: 12121	Binary: 10111101011001	Octal: 27531	Hexadecimal: 2f59
+Mon Feb 19 08:15:37 CET 2018
+
+Binary: 0100101010	Decimal: 298	Octal: 452	Hexadecimal: 12a
+Mon Feb 19 08:15:41 CET 2018
+
+Octal: 012325	Decimal: 5333	Binary: 1010011010101	Hexadecimal: 14d5
+Mon Feb 19 08:15:44 CET 2018
+
+Hexadecimal: 122dfe	Decimal: 1191422	Binary: 100100010110111111110	Octal: 4426776
+Mon Feb 19 08:15:52 CET 2018
+
+Decimal: 12123	Binary: 10111101011011	Octal: 27533	Hexadecimal: 2f5b
+Mon Feb 19 08:17:07 CET 2018
+
+Decimal: 123	Binary: 1111011	Octal: 173	Hexadecimal: 7b
+Mon Feb 19 08:18:26 CET 2018
+
+Octal: 0123	Decimal: 83	Binary: 1010011	Hexadecimal: 53
+Mon Feb 19 08:18:30 CET 2018
+
+Binary: 01010	Decimal: 10	Octal: 12	Hexadecimal: a
+Mon Feb 19 08:18:33 CET 2018
+
+Decimal: 0123123	Binary: 11110000011110011	Octal: 360363	Hexadecimal: 1e0f3
+Mon Feb 19 08:18:48 CET 2018
+
