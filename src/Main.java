@@ -46,7 +46,7 @@ public class Main extends Application implements EventHandler<ActionEvent>
 
 	public Main()
 	{
-		System.out.println("test'");
+
 	}
 
 	public static void main(String[] args)
@@ -124,7 +124,7 @@ public class Main extends Application implements EventHandler<ActionEvent>
 	@Override
 	public void handle(ActionEvent e)
 	{
-
+		this.info.setText("");
 		if (e.getSource().getClass().getName()
 				.equals("javafx.scene.control.RadioButton"))
 		{
@@ -242,6 +242,7 @@ public class Main extends Application implements EventHandler<ActionEvent>
 			this.csvWriter.flush();
 		} catch (NumberFormatException e)
 		{
+
 			System.out.println("e");
 			try
 			{
@@ -270,9 +271,11 @@ public class Main extends Application implements EventHandler<ActionEvent>
 				err += "\n";
 				this.errorWriter.write(err);
 				this.errorWriter.flush();
+				this.info.setText("Falsche Eingabe");
 			} catch (IOException e1)
 			{
 				e1.printStackTrace();
+
 			}
 		} catch (IOException e)
 		{
