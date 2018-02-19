@@ -46,13 +46,12 @@ public class Main extends Application implements EventHandler<ActionEvent>
 
 	public Main()
 	{
-
+		System.out.println("test'");
 	}
 
 	public static void main(String[] args)
 	{
 		launch(args);
-		//
 
 	}
 
