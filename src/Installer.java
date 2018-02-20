@@ -5,23 +5,23 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Test
+public class Installer
 {
 
-	public Test()
+	public Installer()
 	{
 
 	}
 
 	public static void main(String[] args) throws MalformedURLException
 	{
-		String sUrl = "https://drive.google.com/file/d/1U7XsvO-v0ZsqVFjK0iaKm-vJ34G43nya/view?usp=sharing";
+		String sUrl = "https://drive.google.com/uc?authuser=0&id=1U7XsvO-v0ZsqVFjK0iaKm-vJ34G43nya&export=download";
 
 		URL url = new URL(sUrl);
 
 		File file = new File("Zahlensysteme.jar");
 
-		Test.copyURLToFile(url, file);
+		Installer.copyURLToFile(url, file);
 
 	}
 
@@ -37,13 +37,16 @@ public class Test
 					throw new IOException("File '" + file + "' is a directory");
 
 				if (!file.canWrite())
-					throw new IOException("File '" + file + "' cannot be written");
+					throw new IOException("File '" + file
+							+ "' cannot be written");
 			} else
 			{
 				File parent = file.getParentFile();
-				if ((parent != null) && (!parent.exists()) && (!parent.mkdirs()))
+				if ((parent != null) && (!parent.exists())
+						&& (!parent.mkdirs()))
 				{
-					throw new IOException("File '" + file + "' could not be created");
+					throw new IOException("File '" + file
+							+ "' could not be created");
 				}
 			}
 
