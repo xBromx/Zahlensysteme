@@ -18,7 +18,8 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Main extends Application implements EventHandler<ActionEvent>
+public class Zahlensysteme extends Application implements
+		EventHandler<ActionEvent>
 {
 	private GridPane grid = new GridPane();
 	private Scene scene = new Scene(grid);
@@ -43,11 +44,6 @@ public class Main extends Application implements EventHandler<ActionEvent>
 	private FileWriter csvWriter;
 	private Text info = new Text(
 			"Ausgabe wird auch als .txt und .csv gespeichert.");
-
-	public Main()
-	{
-
-	}
 
 	public static void main(String[] args)
 	{
